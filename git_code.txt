@@ -1,0 +1,76 @@
+nano (file's name) -> text editor 
+cat (file's name) -> display the text
+
+
+/////////////////tracking//////////////
+git status -> git code 
+git init -> to initialize
+
+
+//////////////stages//////////////
+1. unstaged -> red in color
+2. staged -> green in color
+3. committed 
+
+/////////////
+git add ---------------(file's name) -> red color change to green -----file's name
+
+////////////
+git commit -m "About Commit" --------> git commit 
+git config --list --------->details 
+git status
+git log --oneline --------------->gives details in one line
+git revert ---------> goes back one step
+
+/////////////vim///////////
+esc shift : q
+if not-> wq
+else-> !q
+
+
+///////////////flow/////////////////
+git init
+git add
+git commit
+/////////if not nedded////////
+git revert
+
+
+git reset( stage bata bahira nikalxa)
+
+git remote -v ------->to view path for further change
+/////////////////////////
+
+
+git status----------red in color changed files
+git add . ----------> this adds files on modified files
+git status ----------- green in color
+git diff ----------> gives differences on committed files
+git reset ----->undo the changes
+now again git add .
+
+/////////give message/////////
+git commmit -m "Extra line committed"  ------------> this gives the message about the change
+
+git diff ----------->
+git log --oneline ----------->
+
+
+////////////////////////////clone own file///////////
+git clone (own path)
+git status
+git remote -v
+git remote add origin
+
+//////for push////
+git push origin master
+
+
+////////////////arko server bata afno server maa leyne////////////
+fork -----garne------> notification main ko maa janxa(mine server)
+clone ------garne---->
+
+////euta server bata arko server garna lai////
+pull request
+
+
